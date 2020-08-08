@@ -1,5 +1,5 @@
 class TasksController < ApplicationController
-  def read
+  def index
     @tasks = Task.all
   end
 end
